@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/asdrubal.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+      <title>Asdrúbal Mejía López</title>
+
+  </head>
+  <body>
+    <!-- Menú encabezado -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">Asdrúbal</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+            <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+            <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- Inicio -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/asdrubal.png" alt="img" />
+        </div>
+        <h1>Asdrúbal Mejía López</h1>
+        <h2>Full Stack Web Developer</h2>
+        <div class="redes">
+          <a href="https://www.facebook.com/asdrubal.mejialopez"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/AsdrubalMejia"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://bit.ly/Asdrumejia1992"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/asdrubal-mejia-lopez/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Asdrumejia"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola mi nombre es Asdrúbal Mejía López,</span> Soy un desarrollador web de Colombia, con experiencia practica tanto en el Front-End como en el Back-End,
+          apasionado por el código y el desarrollo de aplicaciones en React, Angular, NodeJs, PostgreSQL y MongoDB entre otras tecnologías, estoy interesado
+          en adquirir nuevas experiencias en el mundo IT, actualmente tengo conocimientos en los lenguajes JavaScript y TypeScript. Me considero una persona humilde, apasionada, 
+          trabajador, entusiasta, empático, amable, gran colaborador en equipo y con muchas ganas de seguir aprendiendo más en este mundo para visualizar otras realidades y seguir 
+          trabajando en proyectos que involucren motivos y causas reales
+        </p>
+
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                17/12/1992
+              </li>
+              <li>
+                <strong>Teléfono</strong>
+                +573004071981
+              </li>
+              <li>
+                <strong>Email</strong>
+                asdrumejia19@gmail.com
+              </li>
+              <li>
+                <strong>Ciudad - País</strong>
+                Barranquilla - Colombia
+              </li>
+              <li>
+                <strong>Idioma</strong>
+                Español - Nativo
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>Freelance</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>ESTUDIOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MÚSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJES</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-futbol"></i>
+                <span>DEPORTE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          <a download="Doc Pdf" href="./docs/pdf/Currículum_Vitae_Asdrúbal_Mejía_López-1.pdf">
+            Descargar CV <i class="fa-sharp fa-solid fa-download"></i>
+            <span class="overlay"></span>
+          </a>
+        </button>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+      <div class="contenido-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <!-- Technical skill -->
+          <div class="col">
+            <h3>Habilidades Técnicas</h3>
+            <div class="skill">
+              <span>Html & Css</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>TypeScript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>React & Redux</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Angular</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>NodeJs</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>PostgreSQL</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>MongoDb</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+
+               <div class="skill">
+              <span>Express</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+
+               <div class="skill">
+              <span>Git + Github</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Professional skill -->
+          <div class="col">
+            <h3>Habilidades Profesionales</h3>
+            <div class="skill">
+              <span>Adaptación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Comunicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Trabajo en equipo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Colaboración</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Creatividad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Sentido de pertenencia</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Responsabilidad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Disciplina</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Humildad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Currículum -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-section">
+        <h2>Curriculum</h2>
+        <div class="fila">
+
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Full Stack Web Developer</h4>
+              <span class="casa">Henry Academi</span>
+              <span class="fecha">2022 - 2023</span>
+              <ul >
+                <li>Desarrollo ágil metodología SCRUM</li>
+                <li>Entendimiento de arquitectura cliente-servidor</li>
+                <li>Conocimientos y aplicación en principios de código limpio</li>
+                <li>Manejo de control de versiones y repositorios remotos</li>
+                <li>Creación y consumo de servicios REST</li>
+                <li>Manejo de bases de datos PostgreSQL, Sequelize, MySQL</li>
+              </ul>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+
+            <div class="item izq">
+              <h4>Administrador Público</h4>
+              <span class="casa">Universidad de Cartagena</span>
+              <span class="fecha">2012 - 2018</span>
+              <ul >
+                <li>Responsabilidad Y adaptabilidad</li>
+                <li>Disposición para el uso y manejo de equipo y tecnología</li>
+                <li>Responsabilidad para alcanzar el bienestar común</li>
+                <li>Trabajo en equipo</li>
+                <li>Integridad y honestidad</li>
+                <li>Normas de conducta, principios y ética en la práctica profesional</li>
+              </ul>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Experiencia</h3>
+            <div class="item der">
+              <h4>Full Stack Web Developer</h4>
+              <span class="casa">Henry Academi</span>
+              <span class="fecha">2022 - 2023</span>
+              <p>
+                Funciones: Diseñar y desasrrollar Apps las cuales incluyen sistemas de busqueda, filtrados, formularios,
+                administracion de usuarios, y roles entre otras funcionalidades; Donde en el lado del Front-End utilizo tecnologías como
+                React, Redux, Css puro y por el lado del Back-End utilizo NodeJs con Express, base de datos en PostgreSQL,
+                Sequelize y uso de metodologías ágiles SCRUM
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+
+            <div class="item der">
+              <h4>Recepcionista</h4>
+              <span class="casa">Hotel Firenze de Magangué</span>
+              <span class="fecha">2019 - 2020</span>
+              <p>
+                Funciones: Crear un ambiente acogedor, recibiendo, informando y guiando a los visitantes, empleados y proveedores
+                de manera cordial, amigable y profesional; Realizar check-in y check-out de los huéspedes. Atender
+                llamadas telefónicas con el fin de gestionar solicitudes de reservas o cancelaciones, ejecutar auditoria en
+                horario nocturno y hacer cierre de caja cuando sea requerido
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>Proyectos</h2>
+        <div class="galeria">
+
+          <div class="proyecto">
+            <a href="https://app-image-gallery-f1.vercel.app/" target="_blank">
+              <img src="img/App_Image_Gallery_F1.png" alt="">
+              <div class="overlay">
+                <h3>Gallería de imágenes F1 2023</h3>
+                <p>Html, Css & Js</p>
+                <p>Demo</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="proyecto">
+            <a href="https://app-clima-dzyb.vercel.app/" target="_blank">
+              <img src="img/App_climas.png" alt="#">
+              <div class="overlay">
+                <h3>App Clima</h3>
+                <p>React</p>
+                <p>Demo</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="proyecto">
+            <a href="https://paises-app-pi.vercel.app/" target="_blank">
+              <img src="img/Paises_App.png" alt="#">
+              <div class="overlay">
+                <h3>Paises App</h3>
+                <p>Angular</p>
+                <p>Demo</p>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div> 
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>Contacto</h2>
+        <div class="fila">
+             <div class="col">
+              <form onsubmit="window.alert('Mensaje Enviado Con Exito')" action="https://formsubmit.co/b083fee86ffea22aa0a3b607f43bbbef" method="POST" id="form" autoComplete="off">
+                <div class="field">
+                  <input type="text" placeholder="Nombre" name="name" id="name" required>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Telefono" name="phone" id="phone" required>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Email" name="email" id="email" required>
+                </div>	
+                <textarea
+                type="text" 
+                placeholder="Mensaje"
+                name="message" 
+                id="message"
+                cols="30"
+                rows="10"
+                required
+                ></textarea>			  
+
+                <button id="button" type="submit" value="Send Email">
+                  Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                  <span class="overlay"></span>						
+                </button>
+
+                <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500/"> -->
+                <input type="hidden" name="_next" value="https://porfolio-asdrubal-ml.vercel.app/">
+                <input type="hidden" name="_captcha" value="false">
+              </form>
+            </div>
+
+            <!-- Mapa -->
+            <div class="col">
+              <img src="img/ubicacion.png" alt="">
+              <div class="info">
+                  <ul>
+                      <li>
+                          <i class="fa-solid fa-location-dot"></i>
+                          Barranquilla - Colombia
+                      </li>
+                      <li>
+                          <i class="fa-solid fa-mobile-screen"></i>
+                          Llamame al: +573004071981 
+                      </li>
+                      <li>
+                          <i class="fa-solid fa-envelope"></i>
+                          Email: asdrumejia19@gmail.com
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+			<a href="#inicio" class="arriba">
+				<i class="fa-solid fa-angles-up"></i>
+			</a>
+			<div class="redes">
+        <a href="https://www.facebook.com/asdrubal.mejialopez"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/AsdrubalMejia"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://bit.ly/Asdrumejia1992"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/asdrubal-mejia-lopez/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Asdrumejia"><i class="fa-brands fa-github"></i></a>
+			</div>
+		</footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
